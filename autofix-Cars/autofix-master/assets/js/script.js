@@ -1,11 +1,5 @@
 'use strict';
 
-
-
-/**
- * MOBILE NAVBAR TOGGLE
- */
-
 const navbar = document.querySelector("[data-navbar]");
 const navToggler = document.querySelector("[data-nav-toggler]");
 
@@ -13,12 +7,6 @@ navToggler.addEventListener("click", function () {
   navbar.classList.toggle("active");
   this.classList.toggle("active");
 });
-
-
-
-/**
- * CLOSE NAVBAR WHEN CLICKING ON A LINK (Mobile)
- */
 
 const navLinks = document.querySelectorAll(".navbar-link");
 
@@ -29,12 +17,6 @@ navLinks.forEach(link => {
   });
 });
 
-
-
-/**
- * CLOSE NAVBAR ON ESC KEY PRESS
- */
-
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape") {
     if (navbar.classList.contains("active")) {
@@ -43,12 +25,6 @@ document.addEventListener("keydown", function (e) {
     }
   }
 });
-
-
-
-/**
- * CLOSE NAVBAR ON WINDOW RESIZE (When screen becomes desktop size)
- */
 
 window.addEventListener("resize", function () {
   if (window.innerWidth >= 992) {
