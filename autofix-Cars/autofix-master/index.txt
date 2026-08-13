@@ -3,9 +3,6 @@ Autofix - Auto Maintenance & Repair Service
 This is a vehicle repair html template made by codewithsadee
 
 
-
-#---------- HEADER ----------#
-
 alt = autofix home
 
 Home
@@ -20,8 +17,6 @@ Get a Quote
 aria-label = toggle menu
 
 
-#---------- HERO ----------#
-
 We have talented engineers & mechanics
 
 Auto Maintenance & Repair Service
@@ -34,8 +29,6 @@ Our Services
 alt = red motor vehicle
 
 
-
-#---------- SERVICE ----------#
 
 Our services
 We Provide Great Services For your Vehicle
@@ -64,9 +57,6 @@ View All Services
 <span class="material-symbols-rounded">arrow_forward</span>
 
 
-
-#---------- ABOUT ----------#
-
 alt = vehicle repire equipments
 
 About Us
@@ -89,10 +79,6 @@ Years in market
 99%
 Projects completed
 
-
-
-#---------- WORK ----------#
-
 Our Work
 
 Latest projects we have done
@@ -109,9 +95,6 @@ Car Tyre change
 alt = Battery Adjust
 Battery Adjust
 
-
-
-#---------- FOOTER ----------#
 
 alt = autofix home
 
